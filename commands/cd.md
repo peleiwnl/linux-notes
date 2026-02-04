@@ -29,4 +29,19 @@ cd /home/username/documents
 
 ![[cd example 2.png]]
 
+### A few commands
+
+To go back to the last directory you were in:
+```
+cd -
+```
+
+
+To move back to the default directory use:
+
+```
+cd ~
+```
+
+
 #commands
