@@ -8,6 +8,8 @@
 - [[free]] - Shows memory usage
 - [[df]] - Checks disk space usage
 - [[top]] - Monitors running processes
+- [[mkdir]] - Make a directory
+- 
 - [[netstat]], [[ifconfig]], [[ping]] - Help monitor and troubleshooting network connections
 
 #commands 
