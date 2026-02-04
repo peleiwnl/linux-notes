@@ -13,3 +13,20 @@ cd [directory name]
 cd Downloads
 ```
 
+![[cd example 1.png]]
+
+### Going to a Specific Folder
+
+We can go to a specific folder by providing the complete path to it. For example, if we want to access the downloads folder:
+
+```
+cd [directory path]
+```
+
+```
+cd /home/username/documents
+```
+
+![[cd example 2.png]]
+
+#commands

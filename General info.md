@@ -10,6 +10,8 @@
 - [[top]] - Monitors running processes
 - [[netstat]], [[ifconfig]], [[ping]] - Help monitor and troubleshooting network connections
 
+#commands 
+
 ## Distributions
 
 1. Ubuntu - Beginner friendly, large community
