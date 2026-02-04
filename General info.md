@@ -4,12 +4,12 @@
 - [[ls]] - Lists contents of directories
 - [[cd]] - Changes current directory
 - [[pwd]] - Displays current directory path
-- [[cp]], [[my]], [[rm]] - Used to copy, move, and delete files respectively
+- [[cp]], [[mv]], [[rm]] - Used to copy, move, and delete files respectively
 - [[free]] - Shows memory usage
 - [[df]] - Checks disk space usage
 - [[top]] - Monitors running processes
 - [[mkdir]] - Make a directory
-- 
+- [[rmdir]] - Remove an empty directory
 - [[netstat]], [[ifconfig]], [[ping]] - Help monitor and troubleshooting network connections
 
 #commands 
@@ -40,3 +40,20 @@
 - Customizable
 - Stable and reusable
 
+## Difference between Windows and Linux File System
+
+### Windows
+
+- Uses a drive-based structure, such as C:, D:, and E:, where each drive is treated separately
+- File names are not case-sensitive
+- Simpler file permission management
+- Uses NTFS file system for storing and managing data
+- User-friendly and easy to use
+
+### Linux
+
+- Single unified directory tree structure starting at the root
+- File names are case-sensitive
+- Advanced and granular permission control for users, groups and others
+- Uses Ext4 file system
+- Flexible and powerful for advanced users and system admins

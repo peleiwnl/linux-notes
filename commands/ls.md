@@ -4,4 +4,9 @@ Lists the files and directories in the current directory. It provides an overvie
 
 ![[ls example.png]]
 
+### Flags
+
+
+
+
 #commands

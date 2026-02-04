@@ -9,8 +9,9 @@ cp [source_file] [location]
 ### Command
 
 ```
-cp 
+cp ~/Downloads/image.jpeg ~/Pictures
 ```
 
+![[cp example.png]]
 
 #commands
