@@ -11,6 +11,7 @@
 - [[mkdir]] - Make a directory
 - [[rmdir]] - Remove an empty directory
 - [[netstat]], [[ifconfig]], [[ping]] - Help monitor and troubleshooting network connections
+- 
 
 #commands 
 

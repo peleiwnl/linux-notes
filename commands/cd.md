@@ -32,15 +32,27 @@ cd /home/username/documents
 ### A few commands
 
 To go back to the last directory you were in:
+
 ```
 cd -
 ```
 
+To move to the parent directory of your current directory use:
+
+```
+cd ..
+```
 
 To move back to the default directory use:
 
 ```
 cd ~
+```
+
+To check in current directory use:
+
+```
+cd .
 ```
 
 

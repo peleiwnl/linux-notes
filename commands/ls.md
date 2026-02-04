@@ -12,7 +12,7 @@ ls path/to/directory
 ![[ls path example.png]]
 ### Flags
 
-- -l: Long list format
+- [[-l (ls)]]: Long list format
 ![[ls -l example.png]]
 
 
