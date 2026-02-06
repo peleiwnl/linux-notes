@@ -14,7 +14,18 @@ The basic syntax of the cat command is as follows:
 cat [options] file_name
 ```
 
-- [options]
+- `[options]`: Additional flags to modify the behaviour of the command.
+- `[file_name]`: One or more files to read, create, or combine.
+
+### Flags
+
+- [[-n]] View File Content with Line Numbers
+- [[-s]] Suppress Repeated Empty Lines
+- [[-E]] Highlight End of Each Line
+
+
+
+
 
 ### Examples
 
@@ -114,5 +125,4 @@ cat file1.txt file2.txt > merged_file.txt
 ```
 
 ![[cat copy or merge file contents example.png]]
-
 
