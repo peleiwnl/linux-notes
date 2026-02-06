@@ -187,7 +187,7 @@ The newly added text.
 
 Here, this will append the text to the end of geeks.txt instead of replacing its existing content.
 
-#### Display Content of All Text Files in a Folder using `cat` Command
+#### 9. Display Content of All Text Files in a Folder using `cat` Command
 
 The cat command can display the content of all text files in the current directory using the wildcard `*.txt`. This is useful when you want to quickly read multiple text files together.
 
@@ -203,4 +203,7 @@ cat *.txt
 cat *.txt
 ```
 
+![[cat display content of all text files in a folder example.png]]
 
+
+#commands #cat 
