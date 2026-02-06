@@ -15,4 +15,4 @@ rm -rf directory_name
 ![[rm example.png]]
 
 
-#commands
+#commands #rm

@@ -15,4 +15,4 @@ mv ~/Pictures/image.jpeg ~/Documents
 
 ![[mv example.png]]
 
-#commands
+#commands #mv

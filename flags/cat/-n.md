@@ -13,3 +13,5 @@ cat -n merged_text.txt
 ```
 
 ![[cat with -n flag example.png]]
+
+#flags #cat

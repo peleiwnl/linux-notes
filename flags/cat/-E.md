@@ -11,3 +11,7 @@ cat -E file_name
 ```
 cat -E text3.txt
 ```
+
+![[cat -E flag example.png]]
+
+#flags #cat

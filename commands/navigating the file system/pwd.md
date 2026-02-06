@@ -4,4 +4,4 @@ Shows the current location in the system (which folder you are currently in)
 
 ![[pwd example.png]]
 
-#commands
+#commands #pwd

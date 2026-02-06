@@ -16,6 +16,4 @@ rmdir test
 ![[rmdir example.png]]
 
 
-
-
-#commands 
+#commands #mkdir

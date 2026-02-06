@@ -9,4 +9,4 @@ cp -r source_dir destination_dir
 
 ![[cp -r example.png]]
 
-#flags
+#flags 

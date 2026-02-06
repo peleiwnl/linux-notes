@@ -6,3 +6,5 @@ Checks the file size of a directory.
 ### flags
 
 - [[-h]]
+
+#commands #du 

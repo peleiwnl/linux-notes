@@ -18,7 +18,4 @@ cp ~/Downloads/image.jpeg ~/Pictures
  - [[-r]]
 
 
-
-
-
-#commands
+#commands #cp

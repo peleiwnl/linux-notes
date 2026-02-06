@@ -13,3 +13,6 @@ cat -s text3.txt
 ```
 
 ![[cat -s example.png]]
+
+
+#flags #cat

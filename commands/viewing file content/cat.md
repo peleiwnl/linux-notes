@@ -22,10 +22,8 @@ cat [options] file_name
 - [[-n]] View File Content with Line Numbers
 - [[-s]] Suppress Repeated Empty Lines
 - [[-E]] Highlight End of Each Line
-
-
-
-
+- [[-A]] Display Non-Printing Characters
+- [[--]] Open Files Whose Names Start with a Dash
 
 ### Examples
 
@@ -126,3 +124,4 @@ cat file1.txt file2.txt > merged_file.txt
 
 ![[cat copy or merge file contents example.png]]
 
+#commands #cat 

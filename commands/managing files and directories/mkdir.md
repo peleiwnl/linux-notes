@@ -14,4 +14,4 @@ mkdir test
 
 ![[mkdir example.png]]
 
-#commands
+#commands #mkdir
