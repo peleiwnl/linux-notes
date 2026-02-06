@@ -146,7 +146,7 @@ This will combine the contents of file1.txt, file2.txt and file3.txt and save th
 
 #### 7. Append the Content of One File to Another File
 
-The append operator <span style="color:rgb(24, 205, 136)">>></span> is used along with the cat command to add the content of one file to the end of another file
+The append operator <span style="color:rgb(24, 205, 136)">>></span> is used along with the cat command to add the content of one file to the end of another file without overwriting its existing data.
 
 ##### Syntax:
 
@@ -163,10 +163,44 @@ cat file1 >> file2
 ![[cat append the content of one file to another file example.png]]
 
 This will append the content of file1.txt to the end of file2.txt
-
-
 #### 8. Append Content to an Existing File Using cat Command
 
-The cat command can new text to an existing file using the append redirection operator 
+The cat command can new text to an existing file using the append redirection operator (>>).
+- This is useful when you want to add more content without overwriting the existing data.
 
-#commands #cat 
+##### Syntax:
+
+```
+cat >> file_name
+Type your content
+Press Ctrl + D to save and exit
+```
+
+##### Example:
+
+```
+cat >> file1
+The newly added text.
+```
+
+![[cat append content to an existing file example.png]]
+
+Here, this will append the text to the end of geeks.txt instead of replacing its existing content.
+
+#### Display Content of All Text Files in a Folder using `cat` Command
+
+The cat command can display the content of all text files in the current directory using the wildcard `*.txt`. This is useful when you want to quickly read multiple text files together.
+
+##### Syntax:
+
+```
+cat *.txt
+```
+
+##### Example:
+
+```
+cat *.txt
+```
+
+
