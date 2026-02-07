@@ -6,7 +6,7 @@ Here is a general layout of core files:
 
 ![[root-files-example.png]]
 
-
+![[linux-FHS-example.excalidraw]]
 
 
 
