@@ -4,7 +4,7 @@ All files and directories appear under the root directory /, even if they are st
 
 Here is a general layout of core files:
 
-![[linux-FHS-example.excalidraw|100%|live]]
+![[linux-FHS-example.excalidraw|100%]]
 
 
 
