@@ -1,3 +1,5 @@
+## /dev:
+
 Device files in Linux are always stored in this directory. These are special files that act as interfaces between hardware and software.
 
 There are two types of device files:
