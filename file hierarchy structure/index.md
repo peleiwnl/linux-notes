@@ -4,18 +4,10 @@ All files and directories appear under the root directory /, even if they are st
 
 Here is a general layout of core files:
 
-<div style="position: relative; width: 720px;">
-<img src="images/root-files-example.png" usemap="#linuxmap" style="width:100%;">
-
-<map name="linuxmap">
-
-<area shape="rect" coords="205,0,350,75"
-href="obsidian://open?vault=Linux&file=file%20hierarchy%20structure/subfolders/bin.md" alt="/bin">
+![[root-files-example.png]]
 
 
 
-</map>
-</div>
 
 
 #FHS
