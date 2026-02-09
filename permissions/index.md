@@ -72,6 +72,39 @@ This command represents the following information:
 
 ### The 'namei' Command
 
+The 'namei' command is used to check the file path through layer of folder's path:
+
+```
+namei -l /path/to/your/file
+```
+
+### The 'stat' command
+
+Used to pin point the file location.
+
+```
+stat text1
+```
+
+#### Output:
+
+```
+  File: example.txt  
+  Size: 2210       Blocks: 8          IO Block: 4096  regular file  
+Device: 802h/2050d    Inode: 1288496     Links: 1  
+Access: 2024-11-18 10:50:56.000000000 +0000  
+Modify: 2024-11-18 10:50:56.000000000 +0000  
+Change: 2024-11-18 10:50:56.000000000 +0000  
+ Birth: -
+```
+
+
+## Changing Permissions in Linux
+
+Refer to [[chmod]].
+
+
+
 
 
 #permissions #permissiongroups 
