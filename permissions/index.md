@@ -36,5 +36,19 @@ Each of the three "rwx" characters refers to a different operation you can perfo
 
 Assigning permissions to all users should be done cautiously to prevent security vulnerabilities.
 
+### User, Group, and others Option in Linux File Permission
+
+| Reference | Class     | Description                                                                                                                                    |
+| --------- | :-------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
+| 'u'       | user      | The user permissions apply only to the owner of the file or directory, they will not impact the actiions of other users                        |
+| 'g'       | group     | The group permissions apply only to the group that has been assigned to the file or directory, they will not affect the actions of other users |
+| 'o'       | others    | The other permissions apply to all users on the system. this is the permission group which needs to be watched the most                        |
+| 'a'       | all three | All three (owner, groups, others)                                                                                                              |
+
+## Checking the Permission of Files in Linux
+
+### The "Trusty Command"
+
+
 
 #permissions #permissiongroups 
