@@ -1,1 +1,3 @@
 Run a file as a program/script or enter a directory
+
+#permissions 
