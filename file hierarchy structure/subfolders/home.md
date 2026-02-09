@@ -4,6 +4,6 @@ Every non-root user has a personal directory inside /home. For example, if your 
 
 Home directories store users' personal files, containing saved files, personal settings, etc...
 
-[[index|View Index]]
+[[file hierarchy structure/index|View Index]]
 
 #FHS 

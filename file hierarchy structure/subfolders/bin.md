@@ -7,6 +7,6 @@ This folder:
 - Contains common Linux commands which need to be used in single-user modes
 - Contains commands used by all users of the system
 
-[[index|View Index]]
+[[file hierarchy structure/index|View Index]]
 
 #FHS 
