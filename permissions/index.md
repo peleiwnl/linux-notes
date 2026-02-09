@@ -49,6 +49,29 @@ Assigning permissions to all users should be done cautiously to prevent security
 
 ### The "Trusty Command"
 
+#### Input:
+
+```
+ls -l text1.txt
+```
+
+#### Output:
+
+```
+-rw-r--r-- 1 user group 46 Apr 14 16:37 text1.txt
+```
+
+This command represents the following information:
+
+1. The first character = "-", meaning it's a file 'd', which is a directory.
+2. The next nine characters = (rw-r--r--) show the security
+3. The next column shows the owner of the file.
+4. The next column shows the group owner of the file (which has special access to these files)
+5. The next column shows the size of the file in bytes.
+6. The next column shows the date and time the file was last modified.
+
+### The 'namei' Command
+
 
 
 #permissions #permissiongroups 
