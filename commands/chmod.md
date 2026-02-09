@@ -8,6 +8,13 @@ A command used for changing file access permissions.
 - `chmod -wx filename` - removes write and execute rights
 
 Permissions can be modified using symbolic notation or octal notation.
+## The 'sticky bit' Command
+
+This allows he user (only owner) to delete or rename files within the directory regardless of other user's permissions:
+
+```
+chmod +t directoryname
+```
 
 ### Symbolic Notation
 

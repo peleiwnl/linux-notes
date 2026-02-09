@@ -103,8 +103,26 @@ Change: 2024-11-18 10:50:56.000000000 +0000
 
 Refer to [[chmod]].
 
+## Security Permissions in Linux
 
+The combination for the permissions are r,w,x and -.
 
+For example: "rw- r-x- r--"
+- "rw-": The first three characters are 'rw-', meaning the owner can "read" it, "write" it, but cannot execute it as it is a text file, not a program.
+- "r-x". Members of the group can only read and execute the files
+- "r--" The final three characters "r--" show the permissions allowed to other users who have a UserID on this Linux System.
+
+## Special Permissions
+
+Linux also offers special permission types that have more control over files:
+
+- [[setuid]]
+- [[setgid]]
+
+## Setting File Permissions for a Specific User
+
+1. Using [[chown]] to change file ownership
+2. Using [[chmod]] to modify permissions
 
 
 #permissions #permissiongroups 
