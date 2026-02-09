@@ -84,6 +84,19 @@ chown --from-:group1 root greek1
 chown --reference=greek1 greek2
 ```
 
-### Changing Owner of Mul
+### Changing Owner of Multiple Files
 
-#commands #permissions 
+#### Syntax:
+
+```
+chown master:group greek2 greek3
+```
+
+
+### Flags
+
+- [[-c]]
+- [[-v]]
+- [[-f]]
+
+#commands #permissions #chown
