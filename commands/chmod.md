@@ -44,10 +44,66 @@ chmod o+x xyz.txt
 You can also change multiple permissions at once. For example, taking all permissions away from everyone, you'd type:
 
 ```
-chmod ugo-rwx xyz.txt
+chmod ugo-rwx text3.txt
 ```
 
-The code 
+The code revokes all the read(r), write(w) and execute(x) permissions from all user(u), group(g), and others(o) for the file text3.txt which results in this:
+
+![[chmod removing permissions with symbolic notation.png]]
+
+#### Example 2 - Adding read and write permissions to both user and group, and revoke execute permission from others for the file text3.txt
+
+```
+chmod ug+rw, o-x text3.txt
+```
+
+### Octal Notations Permissions in Linux
+
+The octal notation is for representing file permissions in Linux by using three user groups by denoting 3 digits i.e.:
+- user
+- group
+- other users
+
+Here's how the permissions are mapped:
+- Read(r) = 4
+- Write(w) = 2
+- Execute(x) = 1
+
+Permissions for owner, group, and others are represented by a three-digit octal value. The sum of permissions for each group gives the corresponding number.
+
+#### Reference:
+
+```
+chmod o
+```
+
+Now we type '+' for adding a permission:
+
+```
+chmod o+
+```
+
+Then type an 'x' for "executing" a permission:
+
+```
+chmod o+x
+```
+
+Then specify what we are changing:
+
+```
+chmod o+x text3.txt
+```
+
+Multiple permissions can also be changed at once, similar to symbolic notation.
+
+Octal notations can be used like this:
+
+![[octal notations.png]]
+
+Using the octal notations table instead of 'r', 'w', and 'x'. Each digit octal notation can be used for either of the group 'u', 'g', or 'o'.
+
+
 
 
 #commands #permissions
