@@ -9,6 +9,6 @@ Secondary hierarchy for read-only user data; contains the majority of (multi-)us
 - `/usr/local` contains user's programs that you install from source. For example, when you install apache from source, it goes under `/usr/local/apache2`.
 - `/usr/src` holds the Linux kernel sources, header-files and documentation. 
 
-[[file hierarchy structure/index|View Index]]
+[[file system/file hierarchy structure/index|View Index]]
 
 #FHS 

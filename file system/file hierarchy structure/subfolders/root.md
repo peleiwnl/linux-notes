@@ -4,6 +4,6 @@ The top of every Linux file system is the root directory represented by a `/`. N
 
 `/root` is the root user's home directory, which is not the same as `/`.
 
-[[file hierarchy structure/index|View Index]]
+[[file system/file hierarchy structure/index|View Index]]
 
 #FHS 
