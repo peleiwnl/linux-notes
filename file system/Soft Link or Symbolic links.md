@@ -6,4 +6,9 @@ Similar to the file shortcut feature used in Windows OS. Each soft linked file c
 - A soft link can link to a directory.
 - The sizer of a soft link is equal to the length of the path of the original file we gave. E.g., if we link a file like `ln -s /tmp/hello.txt`, `/tmp/link.txt` is then the size of the file, which is 14 bytes.
 - If we change the name of the original file, all soft links for that file become dangling i.e. they are worthless now. 
-- Can be used to link across file systems.
+- Can be used to link across file systems, but if we want to link across the file systems, we can only use symlinks/soft links
+- To create a soft link:
+
+```
+$ ln -s [original filename] [link name]
+```
