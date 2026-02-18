@@ -70,5 +70,22 @@ To list all users, use the awk command with the -F option.
 ### 3. Add a user
 
 ```
-useradd username 
+sudo useradd test_user
 ```
+
+### 4. Assign a Password
+
+```
+passwd test_user password
+```
+
+### 5. Accessing a User Configuration File
+
+To view the details from the `/etc/passwd` file, we can use the cat command. It will contain information like UID, GID, home directory and login shell.
+
+![[accessing a user configuration file example.png]]
+
+## Modify User information
+
+
+
