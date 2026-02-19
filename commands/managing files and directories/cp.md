@@ -15,7 +15,7 @@ cp ~/Downloads/image.jpeg ~/Pictures
 ![[cp example.png]]
 
 ### Flags
- - [[-r]]
+ - [[flags/generics/-r]]
 
 
 #commands #cp
