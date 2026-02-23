@@ -69,6 +69,6 @@ ls -l
 
 ![[bash scripting base example.png]]
 
-
+### Jump to relevant file script
 
 #shellscripting
