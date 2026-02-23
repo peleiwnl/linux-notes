@@ -67,6 +67,8 @@ ls -l
 
 ```
 
+![[bash scripting base example.png]]
+
 
 
 #shellscripting
