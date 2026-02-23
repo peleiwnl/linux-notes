@@ -22,7 +22,51 @@ myscript.sh
 
 ### Uses and advantages of Shell Scripts
 
-1. Automate Repetitive Tasks - Such as cleanup, backups, ser
-2. Reliable and Consistent
+1. Automate Repetitive Tasks - Such as clean-up, backups, server updates
+2. Reliable and Consistent - Run every time without mistakes, removing human error
+3. Native Support on Linux Systems - no additional installations
+4. Great for linking commands to work together - Pass the output of one command into another etc
+5. Ideal for IT, DevOps and Monitoring
+6. Lightweight and easy to write
+
+### Syntax
+
+#### Shebang (#!):
+- First line in a shell script typicall starts with `#!/bin/bash`
+- Specifies which shell should interpret the script
+
+#### Comments:
+- Lines starting with # are comments and ignored during execution
+- Useful for documenting the script
+
+#### Commands:
+- Shell commands like ls, cd, echo, pwd are executed sequentially
+
+#### Variables:
+- Used to store values or user input for reuse in commands
+- Example: `MRDIR="/home/user/projects`
+
+#### Control Structures:
+- Conditional statements: if...then...else, case
+- Loops: for, while, until
+
+#### Functions:
+- Reusable blocks of code that can be called multiple times within a script
+
+### Example Script:
+
+```
+#!bin/bash
+# This script displays the current directory and lists all files
+
+echo "Current Directory: "
+pwd
+
+echo "Files in Directory:"
+ls -l
+
+```
+
+
 
 #shellscripting
