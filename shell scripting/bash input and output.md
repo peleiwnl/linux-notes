@@ -17,3 +17,7 @@ else
 	echo "File created"
 fi
 ```
+
+This will read a filename, if it exists it will print the output, if not it will take input from the user to create a file under the name they were searching for.
+
+#shellscripting 
