@@ -98,7 +98,7 @@ function jump()
 		# find the number of directories to move up to
 		# reach the target directory
 		pos=$[$pos+1]
-		if [ "$" = "$dir" ];then
+		if [ "$1" = "$dir" ];then
 		
 			# length of the path_arr
 			dir_in_path=${#path_arr[@]}
@@ -135,6 +135,6 @@ Command:
 jump directory_name
 ```
 
-
+![[jump bash script example.png]]
 
 #shellscripting
