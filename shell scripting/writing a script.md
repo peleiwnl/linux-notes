@@ -28,3 +28,5 @@ chmod +x hello.sh # GIve permission to ru nthe script
 ## Output:
 
 ![[echo script example.png]]
+
+#shellscripting 

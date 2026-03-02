@@ -45,6 +45,7 @@ myscript.sh
 #### Variables:
 - Used to store values or user input for reuse in commands
 - Example: `MRDIR="/home/user/projects`
+- See [[bash variables]]
 
 #### Control Structures:
 - Conditional statements: if...then...else, case
