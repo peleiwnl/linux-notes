@@ -126,7 +126,7 @@ chmod +x path/to/our/file/jump.sh
 To make it available:
 
 ```
-echo "source ~/path/to/jump.sh" ?? ~/.bashrc
+echo "source ~/path/to/jump.sh" >> ~/.bashrc
 ```
 
 Command:
