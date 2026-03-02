@@ -138,4 +138,30 @@ jump directory_name
 
 ![[jump bash script example.png]]
 
+## Applications of Bash Scripts
+
+- Automation
+- System updates
+- Data processing
+- Backups
+- Monitoring systems and networks
+- Making custom tools
+- Scheduling tasks
+- Managing files and permissions
+- Cross-platform scripting
+
+## Advantages of Bash Scripts
+- Easy to use and code
+- Saves time and effort
+- Runs multiple commands
+
+## Disadvantages
+- Errors can be risky
+- Each command starts a new process
+- Slower compared to compiled languages
+- Compatibility issues across systems
+
+
+
+
 #shellscripting
