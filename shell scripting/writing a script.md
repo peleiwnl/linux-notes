@@ -25,3 +25,6 @@ chmod +x hello.sh # GIve permission to ru nthe script
 ./hello.sh
 ```
 
+## Output:
+
+![[echo script example.png]]
