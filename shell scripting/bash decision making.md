@@ -13,5 +13,57 @@ There are a few varieties:
 
 The syntax for the simplest one is:
 
-## Snytax of lf-else statement:
+### 1. Syntax of lf-else statement:
 
+```
+if [ expression ]; then
+
+	statements
+	
+	
+```
+
+#### Example
+
+```
+Name="James"
+if [ "$Name" = "James" ]; then
+	echo "His name is James. It is true"
+```
+
+### Output of if-else statement
+
+```
+His name is James. It is true
+```
+
+### 2. Case-sac statement
+
+```bash
+case $var in
+	Pattern 1) Statement 1;;
+	Pattern n) Statement n;;
+esac
+```
+
+### Example
+
+```bash
+Name="James"
+case "$Name" in
+	#case 1
+	"Ben") echo "Profession: Builder" ;;
+	
+	#case 2
+	"Will") echo "Profession: Developer" ;;
+	
+	#case 3
+	"James") echo "Profession: Writer" ;;
+esac
+```
+
+### Output
+
+```bash
+Profession: Technical Content Writer
+```
