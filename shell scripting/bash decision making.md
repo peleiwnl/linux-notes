@@ -65,5 +65,6 @@ esac
 ### Output
 
 ```bash
-Profession: Technical Content Writer
+Profession: Writer
 ```
+
