@@ -107,7 +107,32 @@ function jump()
 			cwd=$PWD
 			limit=$[$dir_in_path-$pos-1]
 			for ((i=0; i<limit; i++))
+			do
+				cwd=$cwd/..
+			done
+			cd $cwd
+			break
+		fi
+	done
 }
+```
+
+To make this script executable:
+
+```
+chmod +x path/to/our/file/jump.sh
+```
+
+To make it available:
+
+```
+echo "source ~/path/to/jump.sh" ?? ~/.bashrc
+```
+
+Command:
+
+```
+jump directory_name
 ```
 
 
