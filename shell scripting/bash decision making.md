@@ -1,7 +1,7 @@
 
 Conditions can be provided for the execution of a block of code. If met, only one condition gets executed.
 
-test  test
+test  test test test
 
 ## If-Else Statement:
 
