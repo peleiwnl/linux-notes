@@ -147,3 +147,6 @@ do
 done
 ```
 
+#### Output
+![[bash colour loop example.png]]
+
