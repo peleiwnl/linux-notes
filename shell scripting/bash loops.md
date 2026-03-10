@@ -75,3 +75,41 @@ done
 
 ![[bash for loop example.png]]
 
+### Example: Using a continue statement in a for loop
+
+Using the same script, we can add a continue instead of break:
+
+```bash
+#/bin/bash
+for a in 1 2 3 4 5 6 7 8 9 10
+do
+    # if a = 5 then continue the loop and 
+    # don't move to line 8
+    if [ $a == 5 ]
+    then 
+        continue
+    fi
+    echo "Iteration no $a"
+done
+```
+
+#### Output:
+
+![[bash for loop continue example.png]]
+
+## Until statements
+
+The until loop is executed as many times as the condition/command evaluates to false, and will terminate when the condition/command becomes true.
+
+### Syntax:
+
+```bash
+#/bin/bash
+until <condition>
+do
+	<command 1>
+	<command 2>
+	<etc>
+done
+```
+
