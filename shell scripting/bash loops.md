@@ -113,3 +113,37 @@ do
 done
 ```
 
+### Iteration until the value is greater than 10 example
+
+```bash
+#/bin/bash
+a=0
+# -gt is greater than operator
+#Iterate the loop until a is greater than 10
+until [ $a -gt 10 ]
+do
+    # Print the values
+    echo $a
+    # increment the value
+    a=`expr $a + 1`
+done
+```
+
+#### Output:
+
+![[bash until loop example.png]]
+
+## More examples of looping statements
+
+### Example 1: Iterating over colours using a For Loop:
+
+```bash
+#/bin/bash
+COLORS="red green blue"
+# the for loop continues until it reads all the values from the COLORS  
+for COLOR in $COLORS
+do
+    echo "COLOR: $COLOR"
+done
+```
+
