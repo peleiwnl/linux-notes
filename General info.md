@@ -58,3 +58,7 @@
 - Advanced and granular permission control for users, groups and others
 - Uses Ext4 file system
 - Flexible and powerful for advanced users and system admins
+
+## Package Managers
+
+Use `sudo apt ...`
