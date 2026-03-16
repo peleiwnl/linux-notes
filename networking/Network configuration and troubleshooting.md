@@ -23,5 +23,10 @@ This command is used to query DNS (Domain Name System) records. It helps retriev
 
 ## Using the traceroute command
 
+The traceroute command is used to determine the path taken by packets from the source to the destination host. It also shows the number of hops required to reach the destination. 
+
+The output displays a list of intermediate routers through which the packet travels for identifying network delays or failures.
+
+
 
 
