@@ -68,7 +68,33 @@ The ifconfig (interface configuration) command is used to display or configure n
 - Enable or disable interfaces
 - Display MTU (Maximum transmission unit) values
 
-![[Pasted image 20260316203411.png]]
+![[ifconfig command example.png]]
+
+## Using the Dig Command
+
+The Dig Command is a tool used to find query information related to domain name and troubleshoot DNS issues in Linux. It can provide DNS records such as CNAME, MX records, and more.
+
+![[dig command example.png]]
+
+## Using the Route Command
+
+The route command displays and manipulates the routing table in Linux. Information contained by this is about how network packets should be routed through a network.
+
+![[Using the route command.png]]
+
+This command shows destination, mask, flags, metric, gateway, reference count, and interface. We can also add or delete routes from a network with an IP address.
+
+For example, if we have "IP Address: 192.168.90.0" and "Subnet mask = 24" and "gateway (gw) = 10.0.0.1":
+
+```
+route add -net 192.168.90.0/24 gw 10.0.0.1
+```
+
+## Using the Ethtool Command
+
+This command is used to view and modify network interface card (NIC) settings. It has been replaced by the older mii-tool. It can display link speed, duplex mode, and auto-negotiation status.
+
+
 
 
 
