@@ -27,6 +27,51 @@ The traceroute command is used to determine the path taken by packets from the s
 
 The output displays a list of intermediate routers through which the packet travels for identifying network delays or failures.
 
+![[traceroute command example.png]]
+
+
+## Using host command
+
+The host command is used to perform DNS lookups. It can find:
+
+- The IP address associated with a domain name
+- The domain name associated with an IP address
+
+The returned IP address may be IPv4 or IPv6
+
+![[host command example.png]]
+
+## Using netstat Command
+
+The netstat (Network Statistics) command displays information about:
+- Network connections
+- Routing tables
+- Interface statistics
+- Port status
+
+This command works with the Linux networking subsystem and primarily displays information from the /proc/net directory.
+
+![[netstat command example.png]]
+
+## Using Arp Command
+
+The ARP (Address Resolution Protocol) command is used to display and modify the ARP cache containing the mapping of IP address to MAC address. The system's TCP/IP stack uses ARP to determine the MAC address associated with an IP address.
+
+![[arp command example.png]]
+
+## Using the ifconfig Command
+
+The ifconfig (interface configuration) command is used to display or configure network interfaces. It can:
+
+- Assign IP addresses
+- Configure netmasks
+- Enable or disable interfaces
+- Display MTU (Maximum transmission unit) values
+
+![[Pasted image 20260316203411.png]]
+
+
+
 
 
 
