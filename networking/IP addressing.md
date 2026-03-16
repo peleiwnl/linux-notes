@@ -1,0 +1,1 @@
+An IP address is a unique identifier assigned to devices on a network to enable communication, consisting of the network and host ad
