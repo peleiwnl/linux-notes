@@ -17,4 +17,11 @@ It is generally used for:
 
 ## Using the nslookup command
 
-This command is used to query DNS (Domain Name System) recr
+This command is used to query DNS (Domain Name System) records. It helps retrieve the IP address of a domain name or the domain name associated with an IP address. This command is commonly used for DNS troubleshooting.
+
+![[nslookup command example.png]]
+
+## Using the traceroute command
+
+
+
