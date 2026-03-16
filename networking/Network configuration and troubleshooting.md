@@ -11,4 +11,10 @@ The command provides details such as:
 
 It is generally used for:
 - Measuring the time taken by the packets to determine connection speed
-- Making sure that the network connecto
+- Making sure that the network connection between host and destined computer can be established.
+
+![[ping command example.png]]
+
+## Using the nslookup command
+
+This command is used to query DNS (Domain Name System) recr
