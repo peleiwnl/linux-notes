@@ -1,3 +1,5 @@
+## IP Address 
+
 An IP address is a unique identifier assigned to devices on a network to enable communication, consisting of the network and host address. 
 
 ## What is IP Addressing?
