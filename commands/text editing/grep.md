@@ -34,6 +34,7 @@ grep [options] pattern [files]
 - Inverting the pattern match [[-v (grep)]]
 - Specifying expressions: [[-e (grep)]]
 - Reading patterns: [[-f (grep)]]
+- Printing specific lines from a file: [[-A, -B, -C (grep)]]
 
 
 ### Other Options
@@ -57,13 +58,9 @@ The $ regular expression pattern specifies the end of a line, which can be used 
 ```
 grep "Python$" grepexample1.txt
 ```
-#### 
-
-
-
-#### Reading Patterns
 
 #### Printing specific lines from a file
+
 
 
 
