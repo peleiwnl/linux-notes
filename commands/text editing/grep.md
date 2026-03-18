@@ -21,9 +21,19 @@ grep [options] pattern [files]
 
 - `[options]` - Command-line flags modifying the behaviour of `grep`
 - `[pattern]` - Regular expression we want to search for
-- `[file]` 
+- `[file]` - The name of the file(s) you want to search within. You can specify multiple files for simultaneous searching.
+## Commonly Used `grep` Options
+
+### Flags
+
+#### Case Insensitivity 
+- See [[-i]]
+
+#### Displaying count matches
+- See [[-c]]
 
 
 
-#textediting
+
+#textediting #grep
 
