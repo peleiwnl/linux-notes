@@ -11,8 +11,13 @@ grep -C[NumberOfLines(n)] [search] [file]
 ### Example:
 
 ```
-grep -A "Pyt"
+grep -A1 "Python" grepexample1.txt
 ```
+
+### Output:
+
+![[grep -A, -B, -C example.png]]
+
 
 
 #flags #grep 
