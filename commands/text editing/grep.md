@@ -28,10 +28,10 @@ grep [options] pattern [files]
 - Case Insensitivity: [[-i]]
 - Displaying count matches: [[-c (grep)]]
 - Display matching filenames: [[-l (grep)]]
-- Checking whole words: [[]]
-- Display Matched Pattern
-- Showing line numbers
-- Inverting the pattern match
+- Checking whole words: [[-w]]
+- Display Matched Pattern [[-o]]
+- Showing line numbers [[-n (grep)]]
+- Inverting the pattern match [[-v (grep)]]
 
 
 ### Other Options
