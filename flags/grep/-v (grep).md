@@ -7,3 +7,6 @@ grep -v "Python" grepexample1.txt
 ```
 
 Output:
+![[grep -v example.png]]
+
+#grep #flags 

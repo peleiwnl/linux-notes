@@ -32,17 +32,34 @@ grep [options] pattern [files]
 - Display Matched Pattern [[-o]]
 - Showing line numbers [[-n (grep)]]
 - Inverting the pattern match [[-v (grep)]]
+- Specifying expressions: [[-e (grep)]]
+- Reading patterns: [[-f (grep)]]
 
 
 ### Other Options
 
 #### Match lines starting with a string
 
+The `^` regular expression pattern specifies the start of a line, which can be used in grep to match lines which start with the given string or pattern.
+
+```bash
+grep "^Python" grepexample1.txt
+```
+
+Output:
+
+![[grep with caret example.png]]
 
 #### Match Lines Ending with a string
 
+The $ regular expression pattern specifies the end of a line, which can be used with grep to match lines which end with the given string or pattern.
 
-#### Specifying expressions
+```
+grep "Python$" grepexample1.txt
+```
+#### 
+
+
 
 #### Reading Patterns
 
