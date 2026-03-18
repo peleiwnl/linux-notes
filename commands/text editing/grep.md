@@ -25,15 +25,36 @@ grep [options] pattern [files]
 ## Commonly Used `grep` Options
 
 ### Flags
+- Case Insensitivity: [[-i]]
+- Displaying count matches: [[-c (grep)]]
+- Display matching filenames: [[-l (grep)]]
+- Checking whole words: [[]]
+- Display Matched Pattern
+- Showing line numbers
+- Inverting the pattern match
 
-#### Case Insensitivity 
-- See [[-i]]
 
-#### Displaying count matches
-- See [[-c]]
+### Other Options
 
+#### Match lines starting with a string
 
 
+#### Match Lines Ending with a string
 
-#textediting #grep
+
+#### Specifying expressions
+
+#### Reading Patterns
+
+#### Printing specific lines from a file
+
+
+
+
+
+
+
+
+
+#textediting #grep #commands 
 
