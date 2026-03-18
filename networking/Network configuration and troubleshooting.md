@@ -94,9 +94,18 @@ route add -net 192.168.90.0/24 gw 10.0.0.1
 
 This command is used to view and modify network interface card (NIC) settings. It has been replaced by the older mii-tool. It can display link speed, duplex mode, and auto-negotiation status.
 
+![[ethtool command example.png]]
 
 
+## Using the Hostname command
 
+The hostname command displays the current hostname of the system, which can be changed by using the command:
+
+```
+hostnamect1 set-hostname mypc
+```
+
+![[hostname command example.png]]
 
 
 
