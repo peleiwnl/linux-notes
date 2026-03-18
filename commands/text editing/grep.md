@@ -8,5 +8,22 @@ If we have a file called `notes.txt` and want to find all lines containing the w
 grep "python" notes.txt
 ```
 
+The output would be:
+
+![[using grep to search for a word example.png]]
+
+## Syntax of the `grep` command in Unix/Linux
+
+The basic syntax is:
+```bash
+grep [options] pattern [files]
+```
+
+- `[options]` - Command-line flags modifying the behaviour of `grep`
+- `[pattern]` - Regular expression we want to search for
+- `[file]` 
+
+
+
 #textediting
 
