@@ -26,3 +26,53 @@ Where:
 - [[-e (sed)]]
 - [[-f (sed)]]
 - [[-r (sed)]]
+
+### Examples
+
+Consider the text file as input:
+
+```bash
+cat > file.txt
+```
+
+```txt
+unix is great os. unix is opensource. unix is free os.  
+learn operating system.  
+unix linux which one you choose.  
+unix is easy to learn.unix is a multiuser os.Learn unix .unix is a powerful.
+```
+
+#### 1. Sample Commands
+
+Replacing/substituting string: `sed` is mostly used to replace the text in a file. For example, replacing "unix" with "Linux" in the file:
+
+```bash
+sed 's/unix/linux/' file.txt
+```
+
+Output:
+
+```txt
+linux is great os. unix is opensource. unix is free os.  
+learn operating system.  
+linux linux which one you choose.  
+linux is easy to learn.unix is a multiuser os.Learn unix .unix is a powerful.
+```
+
+Here:
+- The "s" is the substitution operation.
+- The "/" are delimiters
+- "unix" is the search pattern
+- "linux" is the replacement string
+
+By default, this command replaces only the first occurrence of the pattern in each line and not the second, or third, etc. 
+
+## 2. Replacing the nth Occurrence of a Pattern 
+
+We can use the following syntax:
+
+```bash
+sed 's/old_word/new_word/n' filename
+```
+
+
