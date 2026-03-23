@@ -230,6 +230,87 @@ The `sed` command can also delete lines from a particular file:
 
 ##### 1. Deleting a particular line
 
+Syntax:
+```bash
+sed 'nd' filename,txt
+```
+
+Example:
+```bash
+sed '5d' filename.txt
+```
+
+##### 2. To Delete a last line
+
+Syntax:
+```bash
+sed '$d' filename.txt
+```
+
+##### 3. To Delete line from range x to y
+
+Syntax:
+```bash
+sed 'x,yd' filename.txt  
+```
+  
+Example:
+```bash
+sed '3,6d' filename.txt
+```
+
+##### 4. To Delete from nth to last line
+
+Syntax:
+```bash
+sed 'nth,$d' filename.txt  
+```
+  
+Example:
+```bash
+sed '12,$d' filename.txt
+```
+
+##### 5. To Delete pattern matching line
+
+Syntax:
+```bash
+sed '/pattern/d' filename.txt  
+```
+  
+Example:
+```bash
+sed '/abc/d' filename.txt
+```
+
+
+#### Advanced Examples
+
+##### 1. Regular expressions
+
+`sed` supports regular expressions allowing it to handle more complex pattern matching using the `-r` option. For example:
+
+We can find any word starting with 'u' and replacing it with "Linux":
+
+```bash
+sed -r 's/\bu\w+/Linux/g' file.txt
+```
+
+##### 2. Inserting text
+
+You can use this option to insert text before/after any specific line:
+
+Output:
+```txt
+sed '3i\new text' filename  # Insert text before line 3  
+sed '3a\new text' filename  # Insert text after line 3
+```
+
+Example: To insert a new line before line2 in file.txt:
+
+```bash
+sed '2i\This is a new line' file.txt
+```
 
 
 #sed #commands 
