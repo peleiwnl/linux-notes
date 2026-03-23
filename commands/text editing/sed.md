@@ -134,8 +134,101 @@ echo "Welcome To My Project" | sed 's/\(\b[A-Z]\)/\(\1\)/g'
 Output:
 
 ```txt
-(W)elcome (T)o (M)y 
+(W)elcome (T)o (M)y (P)roject
 ```
+
+#### 6. Replacing a string on a specific line number
+
+For example:
+
+```bash
+sed '3 s/unix/linux/' file.txt
+```
+
+Output:
+
+```txt
+unix is great os. unix is opensource. unix is free os.  
+learn operating system.  
+linux linux which one you choose.  
+unix is easy to learn.unix is a multiuser os.Learn unix .unix is a powerful.
+```
+
+#### 7. Duplicating the Replaced Line with /p flag
+
+The /p print flag prints the replaced line twice on the terminal. If a line doesn't have the search pattern and is not replaced, the /p prints it only once.
+
+```bash
+sed 's/unix/linux/p' file.txt
+```
+
+Output:
+
+```txt
+linux is great os. unix is opensource. unix is free os.  
+linux is great os. unix is opensource. unix is free os.  
+learn operating system.  
+linux linux which one you choose.  
+linux linux which one you choose.  
+linux is easy to learn.unix is a multiuser os.Learn unix .unix is a powerful.  
+linux is easy to learn.unix is a multiuser os.Learn unix .unix is a powerful.
+```
+
+#### 8. Printing Only the Replaced Lines
+
+Use the -n option along with /p print flag to display only replaced lines:
+
+```bash
+sed -n 's/unix/linux/p' file.txt
+```
+
+Output:
+
+```txt
+linux is great os. unix is opensource. unix is free os.  
+linux linux which one you choose.  
+linux is easy to learn.unix is a multiuser os.Learn unix .unix is a powerful.
+```
+
+#### 9. Replacing a String on a range of Lines
+
+You can specify a range of line numbers to the sed command for replacing a string:
+
+```bash
+sed '1,3 s/unix/linux/' geekfile.txt
+```
+
+Output:
+
+```txt
+linux is great os. unix is opensource. unix is free os.  
+learn operating system.  
+linux linux which one you choose.  
+unix is easy to learn.unix is a multiuser os.Learn unix .unix is a powerful.
+```
+
+Another example:
+
+```bash
+sed '2,$ s/unix/linux/' file.txt
+```
+
+Output:
+
+```txt
+unix is great os. unix is opensource. unix is free os.  
+learn operating system.  
+linux linux which one you choose.  
+linux is easy to learn.unix is a multiuser os.Learn unix .unix is a powerful
+```
+
+The $ here indicates the last line in the file, so the command replaces the text from the second to last line.
+
+#### 10. Deleting Lines from a Particular file
+
+The `sed` command can also delete lines from a particular file:
+
+##### 1. Deleting a particular line
 
 
 
