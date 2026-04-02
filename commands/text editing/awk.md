@@ -41,77 +41,16 @@ awk [options] 'pattern {action}' input-file > output-file
 ```
 
 - `awk`: Starts the AWK text-processing program
-- `[options]`Controls AWK behavior (e.g., -F to set field separator)
-- ****pattern:**** Specifies which lines to process (condition or regex)
-- ****{action}:**** Defines what to do with matching lines (usually print)
-- ****input-file:**** File that AWK reads line by line
-- ****> output-file:**** Redirects processed output into a file
+- `[options]`: Controls AWK behaviour (e.g., -F to set field separator)
+- `pattern`: Specifies which lines to process (condition or regex)
+- `action`: Defines what to do with matching lines (usually print)
+- `input-file` File that AWK reads line by line
+- `> output-file`: Redirects processed output into a file
 
-## Common awk Command Options
-
-### 1. Using -F (Field Separator Option)
-
-- The -F option sets a custom field separator.
-- By default, fields are separated by spaces, but we can change this using -F.
-
-****Example:**** Use Space (default separator)
-
-awk -F' ' '{print $1, $4}' employee.txt
-
-****Output:****
-
-![file](https://media.geeksforgeeks.org/wp-content/uploads/20251106153500810344/file.webp "Click to enlarge")
-
-Here,
-
-- -F ' ' tells AWK to use space as a separator.
-- $1 = first column (Name)
-- $4 = fourth column (Salary)
-
-### 2. Using -f (Program File Option)
-
-You can write your AWK code in a file and execute it with -f.
-
-****Example:**** Create a script file named print_salary.awk:
-
-{ print $1, "has salary", $4 }
-
-![file](https://media.geeksforgeeks.org/wp-content/uploads/20251106153500869614/file.webp "Click to enlarge")
-
-- Run it using:
-
-awk -f print_salary.awk employee.txt
-
-****Output:****
-
-![file](https://media.geeksforgeeks.org/wp-content/uploads/20251106153500657870/file.webp "Click to enlarge")
-
-- The program file is executed for every line of the input file.
-
-### 3. Using -v (Variable Assignment Option)
-
-The -v option lets you define variables before AWK begins processing.
-
-****Example 1:**** Define a Custom Message
-
-awk -v msg="Employee Details:" 'BEGIN {print msg}'
-
-****Output:****
-
-![file](https://media.geeksforgeeks.org/wp-content/uploads/20251106153500728777/file.webp "Click to enlarge")
-
-- awk -v msg="Employee Details:" defines a variable and prints it before processing starts.
-
-****Example 2:**** Use Variable in Condition
-
-awk -v limit=40000 '$4 > limit {print $1, $4}' employee.txt
-
-****Output:****
-
-![awk-v-limit](https://media.geeksforgeeks.org/wp-content/uploads/20260317191133303395/awk-v-limit.webp "Click to enlarge")
-
-- The variable limit is assigned value 40000.
-- The command prints employees whose salary is greater than 40000.
+## Common flags
+1. [[-F (awk)]]
+2. [[-f (awk)]]
+3. [[-v (awk)]]
 
 ## Built-In Variables In Awk
 
