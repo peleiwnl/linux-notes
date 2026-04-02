@@ -12,22 +12,23 @@ The following text file is used as the input file for all cases below:
 ### Command:
 
 ```bash
-$cat employee.txt 
+cat employee.txt 
 ```
 
 ### Output:
 
 ![file](https://media.geeksforgeeks.org/wp-content/uploads/20251106153501033582/file.webp "Click to enlarge")
 
-### Print All Lines (Default Behavior)
+## Print All Lines (Default Behavior)
 
 By default Awk prints every line of data from the specified file.  
 
-****Command:****
+#### Command:
 
-$ awk '{print}' employee.txt
-
-****Output:****  
+```bash
+awk '{print}' employee.txt
+```
+#### Output:
 
 ![file](https://media.geeksforgeeks.org/wp-content/uploads/20251106153500945201/file.webp "Click to enlarge")
 
@@ -35,10 +36,12 @@ There is no pattern given. So the actions are applicable to all the lines. Actio
 
 ## Syntax
 
+```bash
 awk [options] 'pattern {action}' input-file > output-file
+```
 
-- ****awk:**** Starts the AWK text-processing program
-- ****[options]:**** Controls AWK behavior (e.g., -F to set field separator)
+- `awk`: Starts the AWK text-processing program
+- `[options]`Controls AWK behavior (e.g., -F to set field separator)
 - ****pattern:**** Specifies which lines to process (condition or regex)
 - ****{action}:**** Defines what to do with matching lines (usually print)
 - ****input-file:**** File that AWK reads line by line
