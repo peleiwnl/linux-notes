@@ -4,7 +4,6 @@ awk is a powerful text-processing command for analysing, filtering, and manipula
 - Ideal for parsing logs, reports, and delimited files
 - Supports conditions, loops, and built-in functions
 - Used in shell scripts and data processing pipelines
-
 ## Example
 
 The following text file is used as the input file for all cases below:
@@ -325,3 +324,6 @@ test
 test
 test
 test
+true
+true
+true
